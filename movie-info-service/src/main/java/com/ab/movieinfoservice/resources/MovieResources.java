@@ -10,7 +10,7 @@ import com.ab.movieinfoservice.models.Movie;
 public class MovieResources {
 	@RequestMapping("/{movieId}")
 	public Movie getMovieInfo(@PathVariable("movieId") String movieId) {
-		return new Movie(movieId,"Test name");		
+		return new Movie(movieId,"Test movieId");		
 	}
 
 }
