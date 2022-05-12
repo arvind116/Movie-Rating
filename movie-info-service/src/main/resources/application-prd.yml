@@ -1,0 +1,17 @@
+spring:
+  datasource:
+    username: root
+    url: jdbc:mysql://${MYSQL_HOST:localhost}:3306/movieinfoservice
+    password: Q!w2e3r4
+  sql:
+    init:
+      mode: always
+  jpa:
+    properties:
+      hibernate:
+        dialet: org.hibernate.dialet.MySQL5InnoDBDialect
+        format-sql: 'true'
+    defer-datasource-initialization: 'true'
+    hibernate:
+      ddl-auto: none
+    show-sql: 'true'
