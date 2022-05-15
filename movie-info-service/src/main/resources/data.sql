@@ -1,1 +1,1 @@
-INSERT INTO movie values (null,'TRANS','Transformers','Living Robots'),(null,'HARRY','Harry Potter','Wizards fighting dark'),(null,'INCEP','Inception','Dreaming on another level');
+INSERT INTO movie(movie_id,name,descr) values ('TRANS','Transformers','Living Robots'),('HARRY','Harry Potter','Wizards fighting dark'),('INCEP','Inception','Dreaming on another level');

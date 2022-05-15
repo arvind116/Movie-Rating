@@ -24,4 +24,7 @@ public class Movie {
 	private String name;
 	@Column(name = "descr", nullable = false)
 	private String descr;
+	@Column(name = "message", nullable = true)
+	private String message;
+	
 }
